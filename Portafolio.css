@@ -1,0 +1,281 @@
+html {
+  scroll-behavior: smooth;
+  image-rendering: optimizeSpeed;
+}
+
+
+body {
+  font-family: 'Raleway', sans-serif;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+  background-image: url('Particulas\ fondo.png');
+}
+
+img[src="Material porfatolio/Lettering.png"] {
+  display: block;
+  margin-right: 10px;
+  margin-top: 0px;
+  max-width: 100%;
+  height: 100px;
+  width: 120px;
+  box-shadow: none;
+  border-radius: none;
+  border: none;
+  pointer-events: none;
+}
+
+
+.indice-lista {
+  background-repeat: no-repeat;
+  background-position: left center;
+  padding-left: 80px; /* ajusta el valor según tu preferencia */
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.mi-imagen {
+  display: block;
+  width: 25%;
+  max-width: 600px;
+  height: auto;
+  margin:  auto;
+  border-radius: none;
+  box-shadow: none;
+  transition: none;
+}
+
+.mi-imagen:hover {
+  box-shadow: none;
+}
+
+
+
+  h3, h4, h5, h6,  {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  font-size: 50px;
+  font-weight: bold;
+  text-transform: lowercase;
+  text-align: center;
+  max-width: 1000%; /* Establece la anchura máxima de la imagen al 1000% */
+  width: none; /* Establece la anchura de la imagen en 250 píxeles */
+  height: 50px; /* Establece la altura de la imagen en 300 píxeles */
+  margin: 30px; /* Establece un margen de 10 píxeles en todos los lados de la imagen */
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Agrega una sombra suave a la imagen */
+  image-rendering: optimizeSpeed;
+
+}
+.contenedor .mi-imagen {
+  width: 50%;
+  max-width: 800px; /* ajustar el tamaño máximo deseado */
+  height: auto;
+  margin-bottom: 10px;
+}
+
+
+/* Estilos para las imágenes que no están dentro de .logo */
+img {
+  max-width: 1000%; /* Establece la anchura máxima de la imagen al 1000% */
+  width: none; /* Establece la anchura de la imagen en 250 píxeles */
+  height: none; /* Establece la altura de la imagen en 300 píxeles */
+  margin: 10px; /* Establece un margen de 10 píxeles en todos los lados de la imagen */
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Agrega una sombra suave a la imagen */
+  transition: all 0.3s ease-in-out; /* Agrega una transición suave a todas las propiedades durante 0.3 segundos */
+}
+
+img:hover {
+  transform: scale(1.05);
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+
+.container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.vertical-image {
+  margin-right: 20px;
+  text-align: center;
+  
+}
+
+.horizontal-images {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.horizontal-images img {
+  margin-bottom: 5px;
+ 
+}
+
+/* Estilos generales para la lista de enlaces */
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  background-color: #eee;
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 50px;
+  overflow: hidden;
+  position: relative;
+  box-shadow: none (0, 0, 0, 0.1);
+  
+}
+
+/* Estilos para cada enlace en la lista */
+li a {
+  display: block;
+  padding: 10px 20px;
+  color: #333;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+/* Estilos para cuadro */
+.contenedor {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.mi-imagen {
+  width: 40%;
+  max-width: 400px;
+  height: auto;
+}
+
+.cuadro {
+  background-color: #f1f1f1;
+  border: 5px solid #c3c1c1;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 20px;
+  font-family: Arial, sans-serif;
+  width: 300px; /* ajustar el ancho a tu preferencia */
+  float: left;
+  margin-right: 20px; /* añadir un margen derecho para separarlo del contenido siguiente */
+  margin-left: 440px;
+  margin-top: -10px;
+}
+
+.cuadro p {
+  margin-bottom: 10px;
+}
+
+.cuadro table {
+  border-collapse: separate;
+  width: 100%;
+}
+
+.cuadro th, .cuadro td {
+  text-align: center;
+  padding: 8px;
+}
+
+.cuadro th {
+  background-color: #ddd;
+  color: #000;
+  font-weight: bold;
+}
+/*Apartado de Contacto*/
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  max-width: 500px;
+  margin-left: 220px;
+}
+
+label {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 50%;
+  padding: 0.5rem;
+  border: 5px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 1rem;
+}
+
+input[type="submit"] {
+  background-color: #c3c1c1;
+  color: white;
+  border: none;
+  padding: 0.5rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #525652;
+}
+
+input[type="submit"]:focus {
+  outline: none;
+}
+
+input[type="submit"]:active {
+  background-color: #3e8e41;
+  transform: translateY(1px);
+}
+
+.mi-logo-container .logo {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  padding: 1rem;
+  box-shadow:none
+
+}
+
+.mi-logo-container .logo img {
+  width: 30px;
+  height: 30px;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  padding: 1rem;
+  box-shadow:none 
+}
+
+footer {
+  background-color: none;
+  padding: 1rem;
+  text-align: center;
+  position: static;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+p {
+  margin: 0;
+  font-size: 14px;
+  color: #888;
+}
+hr {
+  height: 10px;
+  border: none;
+  background-image: linear-gradient(to right, #dbd9d6, #b4b0b0, #898989, #383738);
+}
+
+
