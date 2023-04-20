@@ -164,11 +164,8 @@ li a {
   padding: 20px;
   margin-bottom: 20px;
   font-family: Arial, sans-serif;
-  width: 300px; /* ajustar el ancho a tu preferencia */
-  float: left;
-  margin-right: 20px; /* añadir un margen derecho para separarlo del contenido siguiente */
-  margin-left: 440px;
-  margin-top: -10px;
+  width: 100%; /* ocupar todo el ancho del contenedor padre */
+  box-sizing: border-box; /* incluir el borde y el padding en el ancho */
 }
 
 .cuadro p {
@@ -190,6 +187,7 @@ li a {
   color: #000;
   font-weight: bold;
 }
+
 /*Apartado de Contacto*/
 
 form {
@@ -271,11 +269,13 @@ p {
   margin: 0;
   font-size: 14px;
   color: #888;
+  position: static;
 }
 hr {
   height: 10px;
   border: none;
   background-image: linear-gradient(to right, #dbd9d6, #b4b0b0, #898989, #383738);
 }
+
 
 
